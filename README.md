@@ -1,70 +1,127 @@
-# Getting Started with Create React App
+<h1 align="center">Furniture E-Commerce</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Description
 
-## Available Scripts
+React front-end full operating dynamic and responsive E-Commerce shop including payment connection (stripe)
 
-In the project directory, you can run:
+## Built with
 
-### `npm start`
+- HTML
+- CSS
+- React
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# npm-start
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+[npm start](https://docs.npmjs.com/cli/v7/commands/npm-start)
 
-### `npm test`
+```
+npm install
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+npm-start -g
 
-### `npm run build`
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Links
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [Repo](https://github.com/AlmogWer/furniture-e-commerce "Furniture E-commerce Repo")
+- [Live](https://almogwer-furniture-ecommerce.netlify.app/ "Live View")
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Dummy user
 
-### `npm run eject`
+```
+dummy@user.com
+Aadummyuser!
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Screenshots & Animation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![](img/Animation.gif "Showcase")
+![](img/Capture.PNG "Products Page")
+![](img/Capture2.PNG "Single Product Page")
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Author
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- [Almogwer](https://github.com/almogwer)
+- [Mail](mailto:Almogish@gmail.com?Subject=Hi% "Hi!")
+- [Linkedin](https://www.linkedin.com/in/almogwertzberger/)
 
-## Learn More
+## Styled Components
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[Styled-Components - Main Docs](https://styled-components.com/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```jsx
+import styled from "styled-components";
 
-### Code Splitting
+const ReactComponent = () => {
+ return <Wrapper>
+ {some content}
+ </Wrapper>
+}
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+const Wrapper = styled.htmlElement`
+write your styles here
+`
+export default ReactComponent
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## React Icons
 
-### Making a Progressive Web App
+[React Icons - Main Docs](https://react-icons.github.io/react-icons/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## React Version
 
-### Advanced Configuration
+```
+"react": "^17.0.1",
+"react-dom": "^17.0.1",
+"react-scripts": "4.0.0",
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- [react-router-dom - Main Docs](https://reactrouter.com/web/guides/quick-start)
 
-### Deployment
+- <Switch> renders the first child <Route> that matches
+- A <Route path="*"> always matches
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Furniture API
 
-### `npm run build` fails to minify
+- [Get Single Product](https://course-api.com/react-store-single-product?id=)
+- [Get Products](https://course-api.com/react-store-products)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Stripe
+
+- [Stripe - Main Docs](https://stripe.com/docs/payments?payments=popular)
+- [Stripe - React ](https://stripe.com/docs/stripe-js/react)
+
+## Auth0
+
+- [Auth0 - Main Docs](https://auth0.com/)
+- [React SDK Docs](https://auth0.com/docs/libraries/auth0-react)
+- [REACT SDK API Docs](https://auth0.github.io/auth0-react/)
+
+## Env vars
+
+- [dotenv - Main Docs](https://www.npmjs.com/package/dotenv)
+
+- REACT_APP_AUTH_DOMAIN=
+- REACT_APP_CLIENT_ID=
+- REACT_APP_STRIPE_PUBLIC_KEY=
+- REACT_APP_STRIPE_SECRET_KEY=
+
+```
+
+npm install dotenv@8.2.0
+
+```
+
+## Deployment
+
+[Netlify](https://www.netlify.com/)
+
+```
+
+npm install netlify-cli -D
+
+```
+
